@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Neuro Sharp™ Brain Support – Focus, Memory & Mental Energy Formula</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Neuro Sharp™ is a premium brain support supplement designed to help maintain focus, memory, mental clarity and daily productivity using science-backed nutrients." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://www.yourdomain.com/neuro-sharp" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Neuro Sharp™ Brain Support – Focus, Memory & Mental Clarity" />
+  <meta property="og:description" content="Discover how Neuro Sharp™ supports healthy memory, focus and mental energy using advanced brain nutrients." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.yourdomain.com/neuro-sharp" />
+  <meta property="og:image" content="https://www.yourdomain.com/images/neuro-sharp-og.jpg" />
+
+  <style>
+    :root {
+      --primary: #2643e9;
+      --primary-dark: #182bb5;
+      --accent: #ffb347;
+      --bg-light: #f5f7fb;
+      --text-main: #222;
+      --text-muted: #666;
+      --border-soft: #e1e4f0;
+      --success: #0b9b5c;
+      --danger: #e53935;
+      --max-width: 1100px;
+      --radius: 10px;
+      --shadow-soft: 0 8px 20px rgba(18, 32, 59, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text-main);
+      background-color: #ffffff;
+      line-height: 1.6;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .page-wrapper {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 16px;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: #ffffff;
+      border-bottom: 1px solid var(--border-soft);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+    }
+
+    .topbar {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 16px;
+      gap: 12px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .brand-logo {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 30% 30%, #ffffff, #2643e9);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 16px;
+    }
+
+    .brand-text-main {
+      font-weight: 700;
+      font-size: 18px;
+    }
+
+    .brand-text-sub {
+      font-size: 11px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .topbar-cta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--success);
+      font-weight: 600;
+    }
+
+    .pill {
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: #e8f8f0;
+      border: 1px solid #c4eddc;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--success);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 22px;
+      border-radius: 999px;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 14px;
+      transition: all 0.16s ease;
+      gap: 6px;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: #ffffff;
+      box-shadow: 0 10px 18px rgba(38, 67, 233, 0.36);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 12px 20px rgba(38, 67, 233, 0.45);
+    }
+
+    .btn-ghost {
+      background: transparent;
+      border: 1px solid var(--border-soft);
+      color: var(--text-main);
+    }
+
+    .btn-ghost:hover {
+      background: var(--bg-light);
+    }
+
+    .hero {
+      padding: 24px 0 16px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+      gap: 28px;
+      align-items: center;
+    }
+
+    .hero-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #eef1ff;
+      border: 1px solid #d9dfff;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--primary-dark);
+      margin-bottom: 10px;
+    }
+
+    .hero-kicker span.badge {
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: #ffffff;
+      font-size: 10px;
+      border: 1px solid #d3d8ff;
+    }
+
+    .hero-title {
+      font-size: 32px;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+
+    .hero-title span.highlight {
+      color: var(--primary);
+    }
+
+    .hero-subtitle {
+      font-size: 15px;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+    }
+
+    .hero-bullets {
+      list-style: none;
+      margin: 10px 0 16px;
+      padding: 0;
+    }
+
+    .hero-bullets li {
+      display: flex;
+      gap: 8px;
+      font-size: 14px;
+      color: var(--text-main);
+      margin-bottom: 6px;
+    }
+
+    .hero-bullets span.icon {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: #e8f5ff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      color: var(--primary);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .hero-cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      margin-top: 12px;
+    }
+
+    .hero-cta-note {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 12px;
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .hero-meta span {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--success);
+    }
+
+    .hero-image-card {
+      border-radius: 18px;
+      background: radial-gradient(circle at 20% 0%, #ffffff, #eef1ff);
+      padding: 18px;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid #e3e7ff;
+    }
+
+    .hero-product-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      gap: 10px;
+    }
+
+    .hero-product-title {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .hero-product-rating {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: #f6a800;
+    }
+
+    .hero-product-rating span.stars {
+      font-size: 15px;
+    }
+
+    .product-bottle-placeholder {
+      width: 100%;
+      border-radius: 14px;
+      background: linear-gradient(145deg, #ffffff, #dfe4ff);
+      border: 1px dashed #b8c1ff;
+      padding: 40px 16px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .product-bottle-placeholder strong {
+      display: block;
+      font-size: 15px;
+      margin-bottom: 4px;
+      color: var(--primary-dark);
+    }
+
+    .hero-price-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 12px;
+      gap: 10px;
+      font-size: 13px;
+    }
+
+    .price-main {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--primary-dark);
+    }
+
+    .price-main span.old {
+      font-size: 13px;
+      text-decoration: line-through;
+      color: var(--text-muted);
+      margin-right: 6px;
+      font-weight: 400;
+    }
+
+    .price-badge {
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #fff4e3;
+      color: #b46900;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .trust-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      margin-top: 12px;
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .trust-row span {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .section {
+      margin: 26px 0;
+      padding: 18px 14px;
+      border-radius: 14px;
+      background: var(--bg-light);
+      border: 1px solid var(--border-soft);
+    }
+
+    .section--plain {
+      background: transparent;
+      border: none;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .section-title {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .section-subtitle {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .list-check {
+      list-style: none;
+      margin-top: 6px;
+    }
+
+    .list-check li {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 6px;
+      font-size: 14px;
+      color: var(--text-main);
+    }
+
+    .list-check li span.icon {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: #e8f8f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      color: var(--success);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .badge-inline {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3px 10px;
+      border-radius: 999px;
+      background: #eef7ff;
+      color: var(--primary-dark);
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 6px;
+    }
+
+    .story-block {
+      background: #ffffff;
+      border-radius: 12px;
+      border: 1px solid var(--border-soft);
+      padding: 12px 12px;
+      font-size: 14px;
+    }
+
+    .story-block strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+      font-size: 11px;
+    }
+
+    .pill-small {
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid #d9e3ff;
+      background: #ffffff;
+      color: var(--text-muted);
+    }
+
+    .highlight-box {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 10px 12px;
+      border: 1px solid #e6eaf7;
+      font-size: 13px;
+    }
+
+    .highlight-box strong {
+      color: var(--primary-dark);
+    }
+
+    .ingredients-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    .ingredient-card {
+      background: #ffffff;
+      border-radius: 12px;
+      border: 1px solid var(--border-soft);
+      padding: 10px 12px;
+      font-size: 13px;
+    }
+
+    .ingredient-name {
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .ingredient-tag {
+      display: inline-block;
+      font-size: 11px;
+      color: var(--success);
+      margin-bottom: 4px;
+    }
+
+    .benefit-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    .benefit-card {
+      background: #ffffff;
+      border-radius: 12px;
+      border: 1px solid var(--border-soft);
+      padding: 10px 12px;
+      font-size: 13px;
+    }
+
+    .benefit-title {
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .benefit-tag {
+      font-size: 11px;
+      color: var(--primary-dark);
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .how-steps {
+      list-style: none;
+      margin-top: 8px;
+      font-size: 14px;
+    }
+
+    .how-steps li {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 8px;
+      align-items: flex-start;
+    }
+
+    .step-number {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #2643e9;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .small {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .testimonial-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    .testimonial-card {
+      background: #ffffff;
+      border-radius: 12px;
+      border: 1px solid var(--border-soft);
+      padding: 10px 12px;
+      font-size: 13px;
+    }
+
+    .testimonial-name {
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+
+    .testimonial-meta {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+    }
+
+    .testimonial-rating {
+      font-size: 13px;
+      color: #f6a800;
+      margin-bottom: 4px;
+    }
+
+    .faq-list {
+      list-style: none;
+      font-size: 14px;
+    }
+
+    .faq-item {
+      margin-bottom: 10px;
+      border-bottom: 1px solid #eceff8;
+      padding-bottom: 8px;
+    }
+
+    .faq-q {
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .faq-a {
+      color: var(--text-muted);
+    }
+
+    .cta-banner {
+      position: sticky;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #ffffff;
+      border-top: 1px solid var(--border-soft);
+      box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.06);
+      padding: 8px 14px;
+      z-index: 40;
+    }
+
+    .cta-banner-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 13px;
+    }
+
+    .cta-banner-price {
+      font-weight: 600;
+    }
+
+    .cta-banner-price span.old {
+      text-decoration: line-through;
+      color: var(--text-muted);
+      font-weight: 400;
+      margin-right: 5px;
+    }
+
+    .disclaimer {
+      font-size: 11px;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin: 12px 0 6px;
+    }
+
+    footer {
+      border-top: 1px solid var(--border-soft);
+      margin-top: 24px;
+      padding: 14px 0 30px;
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    footer a {
+      color: var(--primary-dark);
+      text-decoration: underline;
+    }
+
+    @media (max-width: 900px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .topbar {
+        padding-inline: 12px;
+      }
+
+      .hero-title {
+        font-size: 24px;
+      }
+
+      .hero {
+        padding-top: 18px;
+      }
+
+      .section {
+        padding-inline: 12px;
+      }
+
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+
+      .cta-banner-inner {
+        flex-direction: column;
+        align-items: stretch;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="topbar">
+    <div class="brand">
+      <div class="brand-logo">N</div>
+      <div>
+        <div class="brand-text-main">Neuro Sharp™</div>
+        <div class="brand-text-sub">Brain Support Formula</div>
+      </div>
+    </div>
+    <div class="topbar-cta">
+      <span class="pill">Limited-Time Online Offer</span>
+      <a href="https://getneurosharp.com/dtc/bg/?aff_id=91607&subid=metaadsfb" class="btn btn-primary">Claim Discount</a>
+    </div>
+  </div>
+</header>
+
+<div class="page-wrapper">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-grid">
+      <div>
+        <div class="hero-kicker">
+          <span>NEW</span>
+          <span class="badge">Brain Focus & Memory Support</span>
+        </div>
+        <h1 class="hero-title">
+          Support <span class="highlight">Sharper Focus, Memory & Mental Energy</span> with Neuro Sharp™
+        </h1>
+        <p class="hero-subtitle">
+          If you feel mentally “slow”, easily distracted or forget small things, you’re not alone. 
+          Neuro Sharp™ is designed to help support healthy memory, focus and mental clarity with a modern blend of brain-supporting nutrients.
+        </p>
+
+        <ul class="hero-bullets">
+          <li><span class="icon">✓</span>Helps support daily focus, concentration and clear thinking</li>
+          <li><span class="icon">✓</span>Backed by brain-supporting ingredients used in research</li>
+          <li><span class="icon">✓</span>Convenient daily formula – no complicated routine</li>
+          <li><span class="icon">✓</span>Created for busy professionals, learners & adults 30+</li>
+        </ul>
+
+        <div class="hero-cta-row">
+          <a href="https://getneurosharp.com/dtc/bg/?aff_id=91607&subid=metaadsfb" class="btn btn-primary">
+            Order Neuro Sharp™ Now →
+          </a>
+          <a href="#how-it-works" class="btn btn-ghost">See How It Works</a>
+        </div>
+        <div class="hero-meta">
+          <span><span class="dot"></span> Secure online ordering</span>
+          <span><span class="dot"></span> Fast shipping on select packages</span>
+          <span><span class="dot"></span> Multi-bottle discounts available</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="hero-image-card">
+          <div class="hero-product-header">
+            <div>
+              <div class="hero-product-title">Neuro Sharp™ Brain Support</div>
+              <div class="hero-product-rating">
+                <span class="stars">★★★★★</span>
+                <span>4.7/5 User Rating</span>
+              </div>
+            </div>
+            <span class="price-badge">Best Value Online</span>
+          </div>
+<div class="product-bottle-img">
+  <img src="https://media.zenfs.com/en/globenewswire.com/75b8a01c1f0115b61fa51c144b3d9cd3" alt="Neuro Sharp Bottle" />
+</div>          <div class="hero-price-row">
+            <div class="price-main">
+              <span class="old">$119</span>$49<span style="font-size:12px;font-weight:400;">/bottle*</span>
+            </div>
+            <div class="hero-cta-note">Special online promotion on eligible bundles.</div>
+          </div>
+          <div class="trust-row">
+            <span>🛡️ 128-bit SSL Secured Checkout</span>
+            <span>🔁 Multi-bottle savings</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM SECTION -->
+  <section class="section section--plain" id="problem">
+    <h2 class="section-title">Why So Many People Feel “Mentally Drained” All Day</h2>
+    <p class="section-subtitle">
+      Long screen time, constant notifications, poor sleep and daily stress can all take a toll on your mind. 
+      Over time, many people notice they feel less sharp than they used to.
+    </p>
+
+    <div class="grid-2">
+      <div>
+        <ul class="list-check">
+          <li><span class="icon">✓</span>Forgetting names, passwords or small tasks more often</li>
+          <li><span class="icon">✓</span>Reading the same line twice because your focus slips</li>
+          <li><span class="icon">✓</span>Feeling mentally “foggy” after lunch or in the evening</li>
+          <li><span class="icon">✓</span>Struggling to stay productive during long work days</li>
+          <li><span class="icon">✓</span>Feeling tired mentally even when your body feels fine</li>
+        </ul>
+      </div>
+      <div>
+        <div class="story-block">
+          <strong>A common modern problem:</strong>
+          Today’s fast-paced lifestyle constantly pulls your attention in multiple directions. 
+          Without the right support, your brain can feel overworked and under-nourished. 
+          That’s why so many people are actively looking for ways to support focus, memory and mental performance.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTRO TO NEURO SHARP -->
+  <section class="section" id="what-is">
+    <span class="badge-inline">What Is Neuro Sharp™?</span>
+    <h2 class="section-title">A Modern Brain Support Formula for Focused, Clear Days</h2>
+    <p class="section-subtitle">
+      Neuro Sharp™ is a nutritional supplement carefully formulated with brain-supportive ingredients that have been used in research for cognitive health, attention and mental performance.
+    </p>
+    <div class="grid-2">
+      <div>
+        <p>
+          Instead of relying on strong stimulants, Neuro Sharp™ focuses on supporting:
+        </p>
+        <ul class="list-check">
+          <li><span class="icon">✓</span>Healthy blood flow to the brain</li>
+          <li><span class="icon">✓</span>Neurotransmitter activity associated with focus</li>
+          <li><span class="icon">✓</span>Memory, recall and mental clarity</li>
+          <li><span class="icon">✓</span>Overall cognitive function with key micronutrients</li>
+        </ul>
+        <p style="margin-top:8px;font-size:13px;color:var(--text-muted);">
+          Combined with good sleep, hydration and lifestyle habits, Neuro Sharp™ may be a valuable part of your daily brain-support routine.
+        </p>
+      </div>
+      <div>
+        <div class="highlight-box">
+          <strong>Who is Neuro Sharp™ designed for?</strong><br />
+          • Busy professionals who juggle multiple tasks<br />
+          • Entrepreneurs & creators who rely on mental performance<br />
+          • Adults who want to support healthy memory as they age<br />
+          • Learners & students during demanding study periods<br />
+          • Anyone who wants to support focus and mental clarity each day
+        </div>
+        <div class="pill-row">
+          <span class="pill-small">Daily Brain Support</span>
+          <span class="pill-small">Focus & Concentration</span>
+          <span class="pill-small">Memory & Clarity</span>
+          <span class="pill-small">Mental Energy</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INGREDIENTS -->
+  <section class="section" id="ingredients">
+    <span class="badge-inline">Inside the Formula</span>
+    <h2 class="section-title">Key Brain-Supportive Ingredients in Neuro Sharp™</h2>
+    <p class="section-subtitle">
+      Each serving of Neuro Sharp™ includes a thoughtfully selected blend of ingredients commonly used in brain support formulas. 
+      Exact amounts may vary by batch – always refer to your product label for the latest facts.
+    </p>
+
+    <div class="ingredients-grid">
+      <div class="ingredient-card">
+        <div class="ingredient-name">Bacopa Monnieri Extract</div>
+        <div class="ingredient-tag">Traditional brain tonic herb</div>
+        <p>
+          Used traditionally to support memory, learning and information processing. 
+          Research suggests bacopa may help support cognitive performance over time when taken consistently.
+        </p>
+      </div>
+
+      <div class="ingredient-card">
+        <div class="ingredient-name">Ginkgo Biloba</div>
+        <div class="ingredient-tag">Circulation & brain support</div>
+        <p>
+          Ginkgo is widely used to support healthy circulation, including blood flow to the brain. 
+          It is commonly used in formulations for focus, mental clarity and cognitive function.
+        </p>
+      </div>
+
+      <div class="ingredient-card">
+        <div class="ingredient-name">Phosphatidylserine</div>
+        <div class="ingredient-tag">Cell membrane nutrient</div>
+        <p>
+          A key component of brain cell membranes, phosphatidylserine is often included in memory and concentration formulas 
+          to help support healthy cognitive function.
+        </p>
+      </div>
+
+      <div class="ingredient-card">
+        <div class="ingredient-name">L-Theanine & Natural Caffeine</div>
+        <div class="ingredient-tag">Smooth focus support</div>
+        <p>
+          This popular combination is used to support calm, focused energy. Theanine may help smooth out the “edge” of caffeine 
+          while supporting concentration and alertness.
+        </p>
+      </div>
+
+      <div class="ingredient-card">
+        <div class="ingredient-name">Vitamin B Complex</div>
+        <div class="ingredient-tag">Brain & energy metabolism</div>
+        <p>
+          B vitamins play a role in energy metabolism and nervous system function. 
+          They are important for helping maintain overall brain health and daily vitality.
+        </p>
+      </div>
+
+      <div class="ingredient-card">
+        <div class="ingredient-name">Antioxidant Support Blend</div>
+        <div class="ingredient-tag">Cellular protection</div>
+        <p>
+          Antioxidant nutrients help protect cells from oxidative stress. 
+          Including antioxidants can support overall brain wellness and healthy aging.
+        </p>
+      </div>
+    </div>
+
+    <p class="small" style="margin-top:10px;">
+      *Ingredients may vary depending on the lot and updated formula. Always read your product label and consult the official website for the most accurate and current ingredient list.
+    </p>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section" id="how-it-works">
+    <span class="badge-inline">How It Works</span>
+    <h2 class="section-title">How Neuro Sharp™ Supports Brain Health & Performance</h2>
+    <p class="section-subtitle">
+      Neuro Sharp™ is not a magic switch – it’s designed to support your brain with nutrients it can use every day, 
+      ideally combined with healthy lifestyle habits like sleep, movement and hydration.
+    </p>
+
+    <div class="benefit-grid">
+      <div class="benefit-card">
+        <div class="benefit-tag">Focus & Attention</div>
+        <div class="benefit-title">Supports Clear, Sustained Focus</div>
+        <p>
+          Selected ingredients support neurotransmitters and brain pathways involved in attention and concentration, 
+          helping you stay on task during work, study or creative projects.
+        </p>
+      </div>
+
+      <div class="benefit-card">
+        <div class="benefit-tag">Memory</div>
+        <div class="benefit-title">Supports Memory & Recall</div>
+        <p>
+          Herbs like bacopa and nutrients like phosphatidylserine are widely used in memory support formulas, 
+          helping you support recall, learning and mental performance over time.
+        </p>
+      </div>
+
+      <div class="benefit-card">
+        <div class="benefit-tag">Mental Energy</div>
+        <div class="benefit-title">Helps Combat Mental Tiredness</div>
+        <p>
+          The combination of B vitamins, theanine, natural caffeine and other ingredients helps support mental energy, 
+          so you feel more ready to tackle your daily tasks.
+        </p>
+      </div>
+
+      <div class="benefit-card">
+        <div class="benefit-tag">Brain Health</div>
+        <div class="benefit-title">Supports Overall Brain Wellness</div>
+        <p>
+          Circulation support, antioxidant nutrients and structural brain nutrients all work together to help maintain healthy cognitive function as part of a balanced lifestyle.
+        </p>
+      </div>
+    </div>
+
+    <div class="highlight-box" style="margin-top:12px;">
+      <strong>Important:</strong> Results vary from person to person. Neuro Sharp™ is not a drug and is not intended to diagnose, treat, cure or prevent any disease. 
+      It is a dietary supplement designed to support brain health alongside healthy habits.
+    </div>
+  </section>
+
+  <!-- HOW TO USE -->
+  <section class="section" id="how-to-use">
+    <span class="badge-inline">How to Use</span>
+    <h2 class="section-title">How to Take Neuro Sharp™ for Best Daily Support</h2>
+    <p class="section-subtitle">
+      Always follow the instructions on your product label and talk to your healthcare provider before starting any new supplement, especially if you have a medical condition or take medication.
+    </p>
+
+    <ul class="how-steps">
+      <li>
+        <div class="step-number">1</div>
+        <div>
+          <strong>Check the label:</strong><br />
+          Read the serving size, ingredient list and any warnings on your bottle. 
+          Make sure you’re not allergic or sensitive to any listed ingredients.
+        </div>
+      </li>
+      <li>
+        <div class="step-number">2</div>
+        <div>
+          <strong>Take with water, preferably in the morning:</strong><br />
+          Many people prefer taking brain support formulas earlier in the day with a glass of water. 
+          Follow the recommended serving size on the label unless directed otherwise by your healthcare provider.
+        </div>
+      </li>
+      <li>
+        <div class="step-number">3</div>
+        <div>
+          <strong>Be consistent:</strong><br />
+          Nutritional supplements usually work best when taken regularly over time. 
+          Make Neuro Sharp™ part of your daily routine to give your brain steady support.
+        </div>
+      </li>
+      <li>
+        <div class="step-number">4</div>
+        <div>
+          <strong>Combine with healthy habits:</strong><br />
+          Prioritize quality sleep, hydration, balanced meals and movement. 
+          Together with Neuro Sharp™, these habits can help you feel and perform at your mental best.
+        </div>
+      </li>
+    </ul>
+
+    <p class="small" style="margin-top:8px;">
+      *Never exceed the recommended dose. Do not use if you are pregnant, nursing or under 18 without medical guidance. 
+      If you experience any unwanted effects, stop use and consult your healthcare provider.
+    </p>
+  </section>
+
+  <!-- CUSTOMER STORIES -->
+  <section class="section" id="reviews">
+    <span class="badge-inline">Real Experiences</span>
+    <h2 class="section-title">What Users Report After Taking Neuro Sharp™</h2>
+    <p class="section-subtitle">
+      Individual experiences vary, but many customers share that Neuro Sharp™ became a helpful addition to their daily routine for focus, memory and productivity.
+    </p>
+
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-name">Laura P., 42</div>
+        <div class="testimonial-meta">Marketing Manager – Chicago, USA</div>
+        <div class="testimonial-rating">★★★★★</div>
+        <p>
+          “My days are packed with meetings, emails and strategy work. I was feeling mentally scattered by 3 PM almost every day. 
+          After adding Neuro Sharp™ to my morning routine, I noticed I could stay focused for longer stretches and finish tasks without constantly jumping between tabs.”
+        </p>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-name">James R., 37</div>
+        <div class="testimonial-meta">Software Engineer – London, UK</div>
+        <div class="testimonial-rating">★★★★☆</div>
+        <p>
+          “Coding all day can be mentally draining. I was looking for something to support my concentration. 
+          Within a few weeks of taking Neuro Sharp™ regularly, my afternoon brain fog felt noticeably less intense and my mental stamina improved.”
+        </p>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-name">Emma L., 51</div>
+        <div class="testimonial-meta">Small Business Owner – Toronto, Canada</div>
+        <div class="testimonial-rating">★★★★★</div>
+        <p>
+          “Running a business means juggling finances, customers and staff. Neuro Sharp™ helps me feel more mentally ‘switched on’ throughout the day. 
+          I still have to manage my sleep and stress, but having extra brain support in my corner gives me peace of mind.”
+        </p>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-name">Michael S., 47</div>
+        <div class="testimonial-meta">Project Lead – Sydney, Australia</div>
+        <div class="testimonial-rating">★★★★☆</div>
+        <p>
+          “I started Neuro Sharp™ during a very intense project cycle. Over the next month, I found it easier to stay organized and remember small details. 
+          It’s now part of my regular supplement stack.”
+        </p>
+      </div>
+    </div>
+
+    <p class="small" style="margin-top:10px;">
+      *These are illustrative user stories. Results can vary widely from person to person. Neuro Sharp™ is not a replacement for medical treatment or professional care.
+    </p>
+  </section>
+
+  <!-- COMPARE -->
+  <section class="section" id="compare">
+    <span class="badge-inline">Why Neuro Sharp™</span>
+    <h2 class="section-title">How Neuro Sharp™ Compares to Typical Brain Supplements</h2>
+    <p class="section-subtitle">
+      Many brain formulas either rely heavily on caffeine or under-dose important ingredients. 
+      Neuro Sharp™ focuses on balance – combining multiple brain-supportive nutrients in one convenient formula.
+    </p>
+
+    <div class="highlight-box">
+      <strong>In short:</strong><br />
+      • Not just a “strong coffee in a capsule” – includes structural and antioxidant support<br />
+      • Uses ingredients commonly found in modern cognitive support research<br />
+      • Designed for everyday use with a focus on balance, not overload<br />
+      • Paired best with healthy sleep and lifestyle habits
+    </div>
+  </section>
+
+  <!-- PRICING / WHERE TO BUY -->
+  <section class="section" id="pricing">
+    <span class="badge-inline">Where to Buy</span>
+    <h2 class="section-title">How to Order Neuro Sharp™ Online</h2>
+    <p class="section-subtitle">
+      For genuine bottles and the latest promotions, always purchase Neuro Sharp™ through the official online page. 
+      This helps you avoid counterfeit or outdated products from unauthorized sellers.
+    </p>
+
+    <div class="grid-2">
+      <div>
+        <ul class="how-steps">
+          <li>
+            <div class="step-number">1</div>
+            <div>
+              <strong>Visit the official online page:</strong><br />
+              Click the secure order button below to open the official Neuro Sharp™ ordering page in a new tab.
+            </div>
+          </li>
+          <li>
+            <div class="step-number">2</div>
+            <div>
+              <strong>Choose your savings package:</strong><br />
+              Many users prefer multi-bottle bundles to give the formula time to work and lock in lower per-bottle pricing when available.
+            </div>
+          </li>
+          <li>
+            <div class="step-number">3</div>
+            <div>
+              <strong>Complete your secure checkout:</strong><br />
+              Enter your details on the encrypted checkout page. Your information is protected by modern security protocols.
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div class="highlight-box">
+          <strong>Online Promotion (Limited):</strong><br />
+          • Special savings on select multi-bottle bundles*<br />
+          • Priority processing on qualifying orders<br />
+          • Direct shipping from the official fulfillment partners
+          <p class="small" style="margin-top:4px;">
+            *Promotions may change over time. See the official order page for current pricing and bundle details.
+          </p>
+        </div>
+        <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap;">
+          <a href="https://getneurosharp.com/dtc/bg/?aff_id=91607&subid=metaadsfb" class="btn btn-primary">
+            Go to Official Neuro Sharp™ Page →
+          </a>
+          <a href="#top" class="btn btn-ghost">Back to Top</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <span class="badge-inline">Questions</span>
+    <h2 class="section-title">Frequently Asked Questions</h2>
+
+    <ul class="faq-list">
+      <li class="faq-item">
+        <div class="faq-q">Is Neuro Sharp™ a medicine?</div>
+        <div class="faq-a">
+          No. Neuro Sharp™ is a dietary supplement formulated to support brain health, focus and memory. 
+          It is not intended to diagnose, treat, cure or prevent any disease and should not replace medical advice or treatment.
+        </div>
+      </li>
+      <li class="faq-item">
+        <div class="faq-q">How soon might I notice benefits?</div>
+        <div class="faq-a">
+          Everyone is different. Some users report feeling more mentally “switched on” within days, while others notice gradual changes over several weeks of consistent use. 
+          Results depend on many factors, including lifestyle, sleep, stress and overall health.
+        </div>
+      </li>
+      <li class="faq-item">
+        <div class="faq-q">Can I take Neuro Sharp™ with my current medication?</div>
+        <div class="faq-a">
+          Always speak with your doctor or healthcare provider before using any supplement if you take medications, have a medical condition, 
+          are pregnant, nursing, or under 18. Only your provider can tell you what is appropriate for your situation.
+        </div>
+      </li>
+      <li class="faq-item">
+        <div class="faq-q">Is there caffeine in Neuro Sharp™?</div>
+        <div class="faq-a">
+          Some formulas may include natural sources of caffeine paired with L-theanine for smooth focus support. 
+          Check your product label for exact ingredients and amounts if you are sensitive to stimulants.
+        </div>
+      </li>
+      <li class="faq-item">
+        <div class="faq-q">Where can I get the best price?</div>
+        <div class="faq-a">
+          The best pricing and latest promotions are usually offered on the official Neuro Sharp™ ordering page. 
+          Use the secure button on this page to access the authorized offer directly.
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- LINK SPACE FOR AFFILIATE -->
+  <section class="section section--plain">
+    <h2 class="section-title">Ready to Support Your Brain?</h2>
+    <p class="section-subtitle">
+      Use the space below to add your own tracking note or call-to-action if needed. This is also a good area to include any disclaimer about affiliate links.
+    </p>
+    <div class="highlight-box">
+      <strong>Affiliate Note:</strong><br />
+Some of the buttons or links on this page may lead to recommended products where we could receive a small referral commission. This does not affect the price you pay. We only feature products that match the theme of cognitive wellness and may be relevant to readers interested in brain support information.  </div>
+    <div style="margin-top:12px;">
+      <a href="https://getneurosharp.com/dtc/bg/?aff_id=91607&subid=metaadsfb" class="btn btn-primary">
+        Visit Official Neuro Sharp™ Offer →
+      </a>
+    </div>
+  </section>
+
+  <!-- DISCLAIMER -->
+  <p class="disclaimer">
+    *These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. 
+    The information on this page is for informational purposes only and does not constitute medical advice. Always consult your healthcare provider before starting any new supplement.
+  </p>
+
+  <footer>
+    <div>
+      © <span id="year"></span> Neuro Sharp™ Informational Page. All rights reserved. This is an independent informational page and not the official manufacturer website.<br />
+      <a href="#">Privacy Policy</a> · <a href="#">Disclaimer</a> · <a href="#top">Back to Top</a>
+    </div>
+  </footer>
+</div>
+
+<!-- Sticky CTA Banner -->
+<div class="cta-banner">
+  <div class="cta-banner-inner">
+    <div>
+      <div class="cta-banner-price">
+        <span class="old">$119</span>Now from $49/bottle* 
+      </div>
+      <div class="small">Online promotion available on select multi-bottle bundles.</div>
+    </div>
+    <a href=" https://getneurosharp.com/dtc/bg/?aff_id=91607&subid=metaadsfb" class="btn btn-primary">
+      Get Neuro Sharp™ Discount →
+    </a>
+  </div>
+</div>
+
+<script>
+  // Set current year in footer
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
